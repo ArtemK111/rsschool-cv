@@ -17,6 +17,7 @@ I'm a first-year student of BSU. My goal is to gain knowledge in the field of fr
 - Git
 - JavaScript (Fundamentals)
 - HTML (Fundamentals)
+- CSS (Fundamentals)
 
 ## Code Examples
 
@@ -42,7 +43,7 @@ let n = prompt("Enter a number:")
 ## Education
 
 - University: Belarusian State University
-- Courses: [Version Control with Git](https://elearn.epam.com/courses/course-v1:EPAM+VCG+RU/course/), [JavaScript/Front-End Development](https://github.com/rolling-scopes-school/tasks/tree/master/stage0)
+- Courses: [Version Control with Git](https://elearn.epam.com/courses/course-v1:EPAM+VCG+RU/course/), [JavaScript/Front-End Development](https://github.com/rolling-scopes-school/tasks/tree/master/stage0), [HTML для начинающих](https://ru.code-basics.com/languages/html), [CSS для начинающих](https://ru.code-basics.com/languages/css)
   
 
 ## English

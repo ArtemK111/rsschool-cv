@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu {
+  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: rgb(26, 20, 128);
+}
+.menu li {display: inline-block;}
+.menu li:after {
+  content: "|";
+  color: #ffffff;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu li:last-child:after {content: none;}
+.menu a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu a, .menu a:visited {color: #ffffff;}
+.menu a.current, .menu a:hover{color: #e97a11;}
+.menu a:before,
+.menu a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #e97a11;
+  transition: .8s;
+}
+.menu a:hover:before, .menu .current:before {left: 0;}
+.menu a:hover:after, .menu .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu {padding-top: 0;}
+.menu li {display: block;}
+.menu li:after {content: none;}
+.menu a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+
+footer {
+    background-color: rgb(26, 20, 128);
+    color: white;
+    display: block;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}*/
+
+/*body
+{
+    background: #565656;
+}*/
+
